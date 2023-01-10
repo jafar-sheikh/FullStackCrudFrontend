@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand-sm bg-info navbar-dark">
+<ul class="navbar-nav">
+<li class="navbar-item">
+<a routerLink="employees" routerLinkActive="active" class="nav-link">Employee List</a>
+</li>
+<li class="navbar-item">
+<a routerLink="create-employee" routerLinkActive="active" class="nav-link">Add Employee</a>
+</li>
+</ul>
+</nav>
+
+<h1 class="shadow text-danger text-center bg-dark">{{title}}</h1>
+
+<div class="container">
+    <!-- <app-employee-list></app-employee-list> -->
+    <router-outlet></router-outlet>
+</div>
+<footer class="footer">
+<div class="container text-center bg-dark">
+<span style="color:white;">
+    All Rights Reserved 2022 © Asikzaman
+</span>
+</div>
+</footer>
